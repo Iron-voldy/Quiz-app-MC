@@ -1,638 +1,395 @@
 {
   "quizzes": [
     {
-      "title": "Java Programming Model Paper 1",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Model Paper 1",
+      "icon": "./assets/images/icon-accessibility.svg",
       "questions": [
         {
-          "question": "What is the primary purpose of the 'main' method in a Java program?",
-          "options": ["To initialize variables", "To serve as the entry point of the program", "To handle exceptions", "To perform mathematical calculations"],
-          "answer": "To serve as the entry point of the program"
+          "question": "What is the result of the binary addition 1011 + 110?",
+          "options": ["10101", "10001", "1111", "10010"],
+          "answer": "10001"
         },
         {
-          "question": "Which of the following is a valid Java variable name?",
-          "options": ["1stVariable", "first Variable", "first_variable", "first-variable"],
-          "answer": "first_variable"
-        },
-        {
-          "question": "Which data type would you use to store a character value?",
-          "options": ["int", "String", "char", "boolean"],
-          "answer": "char"
-        },
-        {
-          "question": "How do you declare an integer variable in Java?",
-          "options": ["int x;", "integer x;", "num x;", "int: x;"],
-          "answer": "int x;"
-        },
-        {
-          "question": "Which of the following operators is used for addition in Java?",
-          "options": ["-", "+", "*", "/"],
-          "answer": "+"
-        },
-        {
-          "question": "What will be the output of the following code: `System.out.println(10 + 5);`?",
-          "options": ["10", "5", "15", "105"],
-          "answer": "15"
-        },
-        {
-          "question": "Which method is used to print a message to the console in Java?",
-          "options": ["System.print()", "print()", "System.out.println()", "println()"],
-          "answer": "System.out.println()"
-        },
-        {
-          "question": "What is the size of a boolean data type in Java?",
-          "options": ["8 bits", "16 bits", "32 bits", "1 bit"],
-          "answer": "1 bit"
-        },
-        {
-          "question": "Which keyword is used to define a constant variable in Java?",
-          "options": ["static", "const", "final", "immutable"],
-          "answer": "final"
-        },
-        {
-          "question": "What is the correct way to initialize a variable of type String?",
-          "options": ["String name = 'John';", "String name = John;", "String name = \"John\";", "String name = `John`;"],
-          "answer": "String name = \"John\";"
-        },
-        {
-          "question": "Which of these is a primitive data type in Java?",
-          "options": ["String", "int", "Object", "ArrayList"],
-          "answer": "int"
-        },
-        {
-          "question": "What does IDE stand for in the context of Java programming?",
-          "options": ["Integrated Development Environment", "International Development Environment", "Integrated Design Environment", "Internal Development Environment"],
-          "answer": "Integrated Development Environment"
-        },
-        {
-          "question": "Which of the following is the correct syntax to create a single-line comment in Java?",
-          "options": ["/* comment */", "// comment", "<!-- comment -->", "# comment"],
-          "answer": "// comment"
-        },
-        {
-          "question": "Which operator is used to compare two values for equality in Java?",
-          "options": ["==", "=", "equals()", "!"],
-          "answer": "=="
-        },
-        {
-          "question": "What will be the output of the following code: `System.out.println(5 / 2);`?",
-          "options": ["2", "2.5", "3", "2.0"],
-          "answer": "2"
-        },
-        {
-          "question": "How do you start a block of code that will run if a condition is true in Java?",
-          "options": ["if(condition) {", "while(condition) {", "for(condition) {", "do { condition }"],
-          "answer": "if(condition) {"
-        },
-        {
-          "question": "Which of these is not a valid data type in Java?",
-          "options": ["double", "float", "real", "char"],
-          "answer": "real"
-        },
-        {
-          "question": "Which of the following is used to create a loop in Java?",
-          "options": ["if", "while", "switch", "case"],
-          "answer": "while"
-        },
-        {
-          "question": "Which keyword is used to define a subclass in Java?",
-          "options": ["subclass", "inherits", "extends", "super"],
-          "answer": "extends"
-        },
-        {
-          "question": "What is the default value of a boolean variable in Java?",
-          "options": ["true", "false", "0", "null"],
-          "answer": "false"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 2",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which of the following is the correct way to declare a float variable in Java?",
-          "options": ["float f = 1.0;", "float f = 1.0f;", "float f = '1.0';", "float f = 1;"],
-          "answer": "float f = 1.0f;"
-        },
-        {
-          "question": "Which of these is a reserved keyword in Java?",
-          "options": ["include", "try", "define", "scan"],
-          "answer": "try"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(9 % 4);`?",
-          "options": ["1", "2", "3", "4"],
+          "question": "Which of the following is the complement of the Boolean expression A + A'?",
+          "options": ["1", "A", "A'", "0"],
           "answer": "1"
         },
         {
-          "question": "Which of the following is an example of a ternary operator in Java?",
-          "options": ["if-else", "for", "?:", "switch-case"],
-          "answer": "?:"
+          "question": "What is the derivative of the function f(x) = 3x^2?",
+          "options": ["2x", "6x", "3x", "9x^2"],
+          "answer": "6x"
         },
         {
-          "question": "Which statement is used to terminate a loop in Java?",
-          "options": ["exit", "break", "continue", "stop"],
-          "answer": "break"
+          "question": "What is the primary unit used to measure angles in trigonometry?",
+          "options": ["Circle", "Arc", "Degree", "Radian"],
+          "answer": "Degree"
         },
         {
-          "question": "What does the following code print? `String str = \"Java\"; System.out.println(str.length());`",
-          "options": ["4", "5", "6", "3"],
-          "answer": "4"
+          "question": "What is the Boolean expression for the output of an AND gate with inputs A and B?",
+          "options": ["A + B", "A'B", "A * B", "A + B'"],
+          "answer": "A * B"
         },
         {
-          "question": "Which keyword is used to handle exceptions in Java?",
-          "options": ["handle", "catch", "throw", "try"],
-          "answer": "catch"
+          "question": "Which trigonometric identity is derived from Pythagoras' theorem?",
+          "options": ["tan(x) = sin(x)/cos(x)", "cos(x) = 1/sin(x)", "sin^2(x) + cos^2(x) = 1", "sin(x) = 1/cos(x)"],
+          "answer": "sin^2(x) + cos^2(x) = 1"
         },
         {
-          "question": "Which of these loops is guaranteed to run at least once?",
-          "options": ["for", "while", "do-while", "foreach"],
-          "answer": "do-while"
+          "question": "In partial fractions, if the denominator is (x+2)(x-3), what form should the numerators take?",
+          "options": ["A + B", "Ax + B", "A/(x+2) + B/(x-3)", "Ax/(x+2) + B/(x-3)"],
+          "answer": "A/(x+2) + B/(x-3)"
         },
         {
-          "question": "Which class is the parent class of all classes in Java?",
-          "options": ["System", "String", "Object", "Main"],
-          "answer": "Object"
+          "question": "What is the integral of e^x?",
+          "options": ["ln(x) + C", "e^x + C", "1/e^x + C", "x*e^x"],
+          "answer": "e^x + C"
         },
         {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Platform-dependent", "Single-threaded", "Garbage collection", "Multiple inheritance"],
-          "answer": "Garbage collection"
+          "question": "Which logic gate has an output of 1 only when all its inputs are 0?",
+          "options": ["NOR gate", "NAND gate", "OR gate", "AND gate"],
+          "answer": "NOR gate"
         },
         {
-          "question": "Which method can be used to find the largest number in a set of numbers in Java?",
-          "options": ["Math.max()", "Math.min()", "Math.abs()", "Math.sqrt()"],
-          "answer": "Math.max()"
+          "question": "What is the differentiation of y = sin(x)?",
+          "options": ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"],
+          "answer": "cos(x)"
         },
         {
-          "question": "Which of these is a valid way to create an array of integers in Java?",
-          "options": ["int[] arr = new int[5];", "int arr = new int[5];", "int[5] arr;", "int arr[5];"],
-          "answer": "int[] arr = new int[5];"
-        },
-        {
-          "question": "Which keyword is used to define a package in Java?",
-          "options": ["define", "package", "include", "namespace"],
-          "answer": "package"
-        },
-        {
-          "question": "What will be the output of the following code? `System.out.println(\"Hello\" + \" World\");`",
-          "options": ["Hello World", "HelloWorld", "Hello+World", "Hello + World"],
-          "answer": "Hello World"
-        },
-        {
-          "question": "Which of the following is not a valid Java operator?",
-          "options": ["&&", "||", "&|", "!="],
-          "answer": "&|"
-        },
-        {
-          "question": "Which method is used to convert a string to an integer in Java?",
-          "options": ["Integer.parseInt()", "String.toInt()", "toString()", "int.valueOf()"],
-          "answer": "Integer.parseInt()"
-        },
-        {
-          "question": "What is the result of `true && false` in Java?",
-          "options": ["true", "false", "null", "0"],
-          "answer": "false"
-        },
-        {
-          "question": "Which of the following data types is used to store decimal numbers in Java?",
-          "options": ["int", "double", "char", "boolean"],
-          "answer": "double"
-        },
-        {
-          "question": "Which method is used to get the current date and time in Java?",
-          "options": ["Date.now()", "LocalDateTime.now()", "System.currentTime()", "Time.now()"],
-          "answer": "LocalDateTime.now()"
-        },
-        {
-          "question": "Which keyword is used to create an interface in Java?",
-          "options": ["class", "interface", "implements", "extends"],
-          "answer": "interface"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 3",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which of the following statements is used to create a new object in Java?",
-          "options": ["create Object()", "new Object()", "Object.new()", "new()"],
-          "answer": "new Object()"
-        },
-        {
-          "question": "Which keyword is used to refer to the immediate parent class object?",
-          "options": ["super", "this", "parent", "base"],
-          "answer": "super"
-        },
-        {
-          "question": "Which of the following is not a valid method of the String class in Java?",
-          "options": ["toLowerCase()", "toUpperCase()", "reverse()", "charAt()"],
-          "answer": "reverse()"
-        },
-        {
-          "question": "Which of the following access specifiers restricts access to the members of a class from any class outside the package?",
-          "options": ["private", "protected", "public", "default"],
-          "answer": "private"
-        },
-        {
-          "question": "Which method is used to get the length of an array in Java?",
-          "options": ["length()", "size()", "getLength()", "arraySize()"],
-          "answer": "length"
-        },
-        {
-          "question": "Which of the following is a valid syntax to call a constructor of the parent class?",
-          "options": ["parent()", "super()", "this()", "base()"],
-          "answer": "super()"
-        },
-        {
-          "question": "Which keyword is used to create a class in Java?",
-          "options": ["new", "create", "class", "define"],
-          "answer": "class"
-        },
-        {
-          "question": "Which operator is used to access the members of an object?",
-          "options": [".", "::", "->", "."],
-          "answer": "."
-        },
-        {
-          "question": "What is the output of `System.out.println(Math.pow(2, 3));`?",
-          "options": ["6", "8", "9", "4"],
+          "question": "How many rows will the truth table of a Boolean function with three variables have?",
+          "options": ["4", "8", "10", "6"],
           "answer": "8"
         },
         {
-          "question": "Which of these is a correct way to handle multiple exceptions in Java?",
-          "options": ["catch (Exception1, Exception2)", "catch (Exception1 | Exception2)", "catch (Exception1 & Exception2)", "catch {Exception1, Exception2}"],
-          "answer": "catch (Exception1 | Exception2)"
+          "question": "What is the sum of the angles in a right triangle?",
+          "options": ["90 degrees", "270 degrees", "360 degrees", "180 degrees"],
+          "answer": "180 degrees"
         },
         {
-          "question": "Which keyword is used to stop the execution of a method in Java?",
-          "options": ["return", "break", "continue", "stop"],
-          "answer": "return"
+          "question": "Which rule is applied in the formula A*(B + C) = (A*B) + (A*C)?",
+          "options": ["Distributive Law", "Associative Law", "Absorption Law", "Commutative Law"],
+          "answer": "Distributive Law"
         },
         {
-          "question": "Which keyword is used to inherit a class in Java?",
-          "options": ["implements", "inherits", "extends", "follows"],
-          "answer": "extends"
+          "question": "If cos(θ) = 0.5, what is the value of θ in degrees?",
+          "options": ["30", "60", "90", "45"],
+          "answer": "60"
         },
         {
-          "question": "Which of the following is true about an abstract class in Java?",
-          "options": ["It cannot have a constructor", "It can have both abstract and non-abstract methods", "It can be instantiated", "It must have at least one abstract method"],
-          "answer": "It can have both abstract and non-abstract methods"
+          "question": "The double angle identity for sine is:",
+          "options": ["sin(2x) = cos^2(x) - sin^2(x)", "sin(2x) = 2sin(x)cos(x)", "sin(2x) = sin^2(x) - cos^2(x)", "sin(2x) = 2cos(x)"],
+          "answer": "sin(2x) = 2sin(x)cos(x)"
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(Math.min(5, 10));`?",
-          "options": ["5", "10", "0", "15"],
-          "answer": "5"
+          "question": "In binary subtraction, what is 1010 - 1001?",
+          "options": ["0101", "0001", "0011", "1111"],
+          "answer": "0001"
         },
         {
-          "question": "Which method is used to convert a string to an array of characters?",
-          "options": ["toCharArray()", "charArray()", "getChars()", "split()"],
-          "answer": "toCharArray()"
+          "question": "Which of the following represents the derivative of y = ln(x)?",
+          "options": ["x/ln(x)", "1/x", "x", "ln(x)"],
+          "answer": "1/x"
         },
         {
-          "question": "Which of the following is used to create a thread in Java?",
-          "options": ["Runnable interface", "Thread class", "Both A and B", "None of the above"],
-          "answer": "Both A and B"
+          "question": "What is the area under the curve of y = x^2 from x = 0 to x = 2?",
+          "options": ["8", "4/3", "2", "8/3"],
+          "answer": "8/3"
         },
         {
-          "question": "Which keyword is used to throw an exception in Java?",
-          "options": ["throw", "throws", "thrown", "catch"],
-          "answer": "throw"
+          "question": "What is the hexadecimal equivalent of the binary number 1010?",
+          "options": ["A", "2", "10", "5"],
+          "answer": "A"
         },
         {
-          "question": "Which method is used to check if two strings are equal, ignoring case considerations?",
-          "options": ["equalsIgnoreCase()", "compareToIgnoreCase()", "equals()", "compareTo()"],
-          "answer": "equalsIgnoreCase()"
+          "question": "Which Boolean law is represented by A + 0 = A?",
+          "options": ["Domination Law", "Identity Law", "Inverse Law", "Idempotent Law"],
+          "answer": "Identity Law"
         },
         {
-          "question": "What is the return type of the 'hashCode()' method in Java?",
-          "options": ["int", "long", "short", "byte"],
-          "answer": "int"
+          "question": "Convert the decimal number 12 to binary.",
+          "options": ["1010", "1110", "1100", "1001"],
+          "answer": "1100"
         },
         {
-          "question": "Which of these is a method of the Integer class?",
-          "options": ["parseInt()", "toInteger()", "intValue()", "All of the above"],
-          "answer": "All of the above"
+          "question": "Which trigonometric ratio is the reciprocal of sine?",
+          "options": ["Cosecant", "Secant", "Cosine", "Tangent"],
+          "answer": "Cosecant"
+        },
+        {
+          "question": "The reciprocal of tangent is:",
+          "options": ["Cotangent", "Sine", "Cosecant", "Secant"],
+          "answer": "Cotangent"
+        },
+        {
+          "question": "What is the integral of tan(x)?",
+          "options": ["sin(x) + C", "-sin(x) + C", "-ln|cos(x)| + C", "ln|cos(x)| + C"],
+          "answer": "-ln|cos(x)| + C"
+        },
+        {
+          "question": "Which law states that A + A = A?",
+          "options": ["Commutative Law", "Inverse Law", "Idempotent Law", "Distributive Law"],
+          "answer": "Idempotent Law"
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 4",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Model Paper 2",
+      "icon": "./assets/images/icon-accessibility.svg",
       "questions": [
         {
-          "question": "What is the purpose of the `this` keyword in Java?",
-          "options": ["To refer to the current object", "To refer to the superclass", "To refer to a static method", "To create a new object"],
-          "answer": "To refer to the current object"
-        },
-        {
-          "question": "Which of the following is not a Java loop construct?",
-          "options": ["for", "while", "foreach", "do-while"],
-          "answer": "foreach"
-        },
-        {
-          "question": "Which exception is thrown when a file is not found in Java?",
-          "options": ["FileNotFoundException", "IOException", "RuntimeException", "FileException"],
-          "answer": "FileNotFoundException"
-        },
-        {
-          "question": "Which of these methods is used to calculate the absolute value of a number in Java?",
-          "options": ["Math.abs()", "Math.absolute()", "Math.ceil()", "Math.floor()"],
-          "answer": "Math.abs()"
-        },
-        {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Manual memory management", "Automatic garbage collection", "Multiple inheritance", "Platform-dependent"],
-          "answer": "Automatic garbage collection"
-        },
-        {
-          "question": "Which of the following is not a valid access modifier in Java?",
-          "options": ["public", "private", "protected", "friendly"],
-          "answer": "friendly"
-        },
-        {
-          "question": "What will be the output of the following code? `System.out.println(\"Java\".substring(1, 3));`",
-          "options": ["Ja", "Jav", "av", "ava"],
-          "answer": "av"
-        },
-        {
-          "question": "Which of the following is used to read input from the user in Java?",
-          "options": ["Scanner class", "InputStream class", "FileReader class", "Buffer class"],
-          "answer": "Scanner class"
-        },
-        {
-          "question": "Which of these is not a keyword in Java?",
-          "options": ["interface", "goto", "constant", "synchronized"],
-          "answer": "constant"
-        },
-        {
-          "question": "Which of these methods is used to find the length of a string in Java?",
-          "options": ["length()", "size()", "getLength()", "count()"],
-          "answer": "length()"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 ? \"True\" : \"False\");`",
-          "options": ["True", "False", "Error", "0"],
-          "answer": "True"
-        },
-        {
-          "question": "Which keyword is used to define a class that cannot be extended?",
-          "options": ["final", "static", "abstract", "constant"],
-          "answer": "final"
-        },
-        {
-          "question": "Which of these is not a valid Java data type?",
-          "options": ["char", "int", "double", "number"],
-          "answer": "number"
-        },
-        {
-          "question": "What is the output of the following code? `System.out.println(3 * 2 + 1);`",
-          "options": ["5", "6", "7", "9"],
-          "answer": "7"
-        },
-        {
-          "question": "Which of these is not a method of the java.util.ArrayList class?",
-          "options": ["add()", "remove()", "get()", "push()"],
-          "answer": "push()"
-        },
-        {
-          "question": "Which of these keywords is used to create an interface in Java?",
-          "options": ["interface", "class", "implements", "extends"],
-          "answer": "interface"
-        },
-        {
-          "question": "What is the result of `System.out.println(10 < 20 && 5 > 3);`?",
-          "options": ["true", "false", "null", "Error"],
-          "answer": "true"
-        },
-        {
-          "question": "Which of the following methods is used to find the square root of a number in Java?",
-          "options": ["Math.sqrt()", "Math.square()", "Math.root()", "Math.pow()"],
-          "answer": "Math.sqrt()"
-        },
-        {
-          "question": "Which of these is a valid way to start a comment in Java?",
-          "options": ["//", "<!--", "/*", "#"],
-          "answer": "//"
-        },
-        {
-          "question": "Which of these is a valid Java array declaration?",
-          "options": ["int[] arr;", "int arr[];", "int arr = [];", "Both A and B"],
-          "answer": "Both A and B"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 5",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which of these is a valid way to concatenate strings in Java?",
-          "options": ["String1 + String2", "String1.concat(String2)", "StringBuilder.append()", "All of the above"],
-          "answer": "All of the above"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(5 * 2 / 2);`",
-          "options": ["2.5", "5", "10", "0"],
-          "answer": "5"
-        },
-        {
-          "question": "Which of the following is not a feature of Java?",
-          "options": ["Object-oriented", "Platform-independent", "Supports pointers", "Secure"],
-          "answer": "Supports pointers"
-        },
-        {
-          "question": "Which of these is the correct way to create an object of the class 'Car'?",
-          "options": ["Car myCar = new Car();", "Car myCar;", "myCar = new Car();", "Car() myCar;"],
-          "answer": "Car myCar = new Car();"
-        },
-        {
-          "question": "Which of the following is not a method of the String class in Java?",
-          "options": ["length()", "compareTo()", "toUpperCase()", "toChar()"],
-          "answer": "toChar()"
-        },
-        {
-          "question": "Which keyword is used to define a block of code that will run if no exceptions are thrown?",
-          "options": ["catch", "try", "finally", "default"],
-          "answer": "finally"
-        },
-        {
-          "question": "What is the output of the following code? `System.out.println(\"Hello World\".toUpperCase());`",
-          "options": ["HELLO WORLD", "Hello World", "hello world", "Helloworld"],
-          "answer": "HELLO WORLD"
-        },
-        {
-          "question": "Which of these methods is used to determine if a string starts with a certain prefix?",
-          "options": ["startsWith()", "beginWith()", "hasPrefix()", "starts()"],
-          "answer": "startsWith()"
-        },
-        {
-          "question": "What will be the output of the following code: `System.out.println(10 % 4);`",
-          "options": ["0", "2", "4", "3"],
-          "answer": "2"
-        },
-        {
-          "question": "Which of these keywords is used to define a method that must be implemented by subclasses?",
-          "options": ["abstract", "final", "static", "default"],
-          "answer": "abstract"
-        },
-        {
-          "question": "Which of these is not a Java exception handling keyword?",
-          "options": ["try", "catch", "throw", "handle"],
-          "answer": "handle"
-        },
-        {
-          "question": "Which method is used to stop the execution of a thread?",
-          "options": ["stop()", "terminate()", "exit()", "end()"],
-          "answer": "stop()"
-        },
-        {
-          "question": "Which of these is a method of the Math class in Java?",
-          "options": ["max()", "min()", "pow()", "All of the above"],
-          "answer": "All of the above"
-        },
-        {
-          "question": "Which of the following is true about Java?",
-          "options": ["It is a compiled language", "It is an interpreted language", "It is both compiled and interpreted", "None of the above"],
-          "answer": "It is both compiled and interpreted"
-        },
-        {
-          "question": "Which of the following is not a type of inheritance in Java?",
-          "options": ["Single", "Multilevel", "Hybrid", "Multiple"],
-          "answer": "Multiple"
-        },
-        {
-          "question": "Which of the following methods is used to write to a file in Java?",
-          "options": ["FileWriter.write()", "File.read()", "FileStream()", "FileOpen.write()"],
-          "answer": "FileWriter.write()"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 || 5 > 10);`",
-          "options": ["true", "false", "null", "0"],
-          "answer": "true"
-        },
-        {
-          "question": "Which keyword is used to refer to the superclass of a class?",
-          "options": ["parent", "super", "base", "extends"],
-          "answer": "super"
-        },
-        {
-          "question": "Which of these is not a primitive data type in Java?",
-          "options": ["int", "boolean", "float", "String"],
-          "answer": "String"
-        },
-        {
-          "question": "Which method is used to find the last occurrence of a character in a string?",
-          "options": ["lastIndexOf()", "indexOf()", "findLast()", "charAt()"],
-          "answer": "lastIndexOf()"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Mid Guess Paper",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which keyword is used to define a method that cannot be overridden in Java?",
-          "options": ["final", "static", "private", "protected"],
-          "answer": "final"
-        },
-        {
-          "question": "What is the output of the following code? `System.out.println(10 / 3);`",
-          "options": ["3.33", "3", "4", "0"],
-          "answer": "3"
-        },
-        {
-          "question": "Which of the following is true about a static method?",
-          "options": ["It belongs to the class, not instances", "It can access instance variables directly", "It can be overridden", "It is always public"],
-          "answer": "It belongs to the class, not instances"
-        },
-        {
-          "question": "What is the output of `System.out.println(Math.ceil(4.2));`?",
-          "options": ["4.0", "4", "5.0", "5"],
-          "answer": "5.0"
-        },
-        {
-          "question": "Which of these is a valid declaration of a constructor in Java?",
-          "options": ["void Constructor()", "Constructor()", "new Constructor()", "Constructor.new()"],
-          "answer": "Constructor()"
-        },
-        {
-          "question": "Which of these is the correct way to create a comment in Java?",
-          "options": ["# comment", "// comment", "<!-- comment -->", "/* comment"],
-          "answer": "// comment"
-        },
-        {
-          "question": "Which of the following is true about the `break` statement?",
-          "options": ["It exits the current method", "It exits the current loop", "It stops the entire program", "It skips the current iteration"],
-          "answer": "It exits the current loop"
-        },
-        {
-          "question": "Which of these is a valid identifier in Java?",
-          "options": ["1stVariable", "first_Variable", "first-Variable", "first Variable"],
-          "answer": "first_Variable"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".charAt(1));`",
-          "options": ["H", "e", "l", "o"],
-          "answer": "e"
-        },
-        {
-          "question": "Which of the following is used to declare a constant in Java?",
-          "options": ["const", "constant", "final", "static"],
-          "answer": "final"
-        },
-        {
-          "question": "Which of the following is not an access specifier in Java?",
-          "options": ["public", "private", "protected", "package"],
-          "answer": "package"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".substring(0, 2));`",
-          "options": ["He", "Hel", "Ho", "H"],
-          "answer": "He"
-        },
-        {
-          "question": "Which of the following is not a valid way to start a comment in Java?",
-          "options": ["//", "/*", "#", "*/"],
-          "answer": "#"
-        },
-        {
-          "question": "Which of these is a valid way to create a new string in Java?",
-          "options": ["String str = new String(\"Hello\");", "String str = String(\"Hello\");", "String str = 'Hello';", "String str = \"Hello\"();"],
-          "answer": "String str = new String(\"Hello\");"
-        },
-        {
-          "question": "Which keyword is used to handle exceptions that are not caught?",
-          "options": ["try", "catch", "finally", "throw"],
-          "answer": "finally"
-        },
-        {
-          "question": "Which of these is not a loop construct in Java?",
-          "options": ["while", "for", "foreach", "do-while"],
-          "answer": "foreach"
-        },
-        {
-          "question": "Which of these methods is used to convert a string to lowercase?",
-          "options": ["toLower()", "lowerCase()", "toLowerCase()", "lower()"],
-          "answer": "toLowerCase()"
-        },
-        {
-          "question": "What is the output of `System.out.println(4 + 5 * 2);`?",
-          "options": ["18", "14", "13", "9"],
+          "question": "Convert the binary number 1110 to decimal.",
+          "options": ["14", "15", "13", "12"],
           "answer": "14"
         },
         {
-          "question": "Which of the following is a valid declaration of a char array?",
-          "options": ["char[] arr;", "char arr[];", "char arr = [];", "Both A and B"],
-          "answer": "Both A and B"
+          "question": "Which of the following operations is used to simplify circuits in Boolean algebra?",
+          "options": ["Multiplication", "Complement", "Addition", "Subtraction"],
+          "answer": "Complement"
         },
         {
-          "question": "Which of these is not a valid way to initialize an array in Java?",
-          "options": ["int[] arr = new int[5];", "int[] arr = {1, 2, 3};", "int[] arr = new int[5]{1, 2, 3};", "int arr[] = new int[]{1, 2, 3};"],
-          "answer": "int[] arr = new int[5]{1, 2, 3};"
+          "question": "The derivative of e^x is:",
+          "options": ["x*e^x", "e^x", "xe^(x-1)", "ln(x)"],
+          "answer": "e^x"
+        },
+        {
+          "question": "Which logic gate produces a 0 output only when all inputs are 1?",
+          "options": ["NAND gate", "OR gate", "AND gate", "NOR gate"],
+          "answer": "NAND gate"
+        },
+        {
+          "question": "In the partial fraction decomposition, what must the degree of the numerator be in comparison to the denominator?",
+          "options": ["At least one degree less", "Greater than the degree of the denominator", "The same degree", "Two degrees less"],
+          "answer": "At least one degree less"
+        },
+        {
+          "question": "In differentiation, what is the gradient of the curve y = x^2 at x = 3?",
+          "options": ["9", "3", "12", "6"],
+          "answer": "6"
+        },
+        {
+          "question": "What is the base used in the binary number system?",
+          "options": ["10", "8", "16", "2"],
+          "answer": "2"
+        },
+        {
+          "question": "Which trigonometric function is the reciprocal of cosine?",
+          "options": ["Tangent", "Secant", "Cosecant", "Cotangent"],
+          "answer": "Secant"
+        },
+        {
+          "question": "In the truth table for an OR gate, what is the output when both inputs are 0?",
+          "options": ["1", "Depends on the condition", "Cannot be determined", "0"],
+          "answer": "0"
+        },
+        {
+          "question": "What is the value of sin(90 degrees)?",
+          "options": ["Infinity", "0", "1", "-1"],
+          "answer": "1"
+        },
+        {
+          "question": "What is the product of the binary numbers 110 and 101?",
+          "options": ["1000010", "10110", "10010", "11110"],
+          "answer": "11110"
+        },
+        {
+          "question": "Which trigonometric identity is incorrect?",
+          "options": ["sec(x) = 1/cos(x)", "cot(x) = 1 + tan^2(x)", "sin^2(x) + cos^2(x) = 1", "tan(x) = sin(x)/cos(x)"],
+          "answer": "cot(x) = 1 + tan^2(x)"
+        },
+        {
+          "question": "The differentiation of ln(x) with respect to x is:",
+          "options": ["x", "ln(x)", "1", "1/x"],
+          "answer": "1/x"
+        },
+        {
+          "question": "What is the simplified Boolean expression for A + AB?",
+          "options": ["AB", "A + B", "B", "A"],
+          "answer": "A"
+        },
+        {
+          "question": "Which Boolean operation does the OR gate perform?",
+          "options": ["Multiplication", "Subtraction", "Addition", "Division"],
+          "answer": "Addition"
+        },
+        {
+          "question": "Which Boolean law states A * 1 = A?",
+          "options": ["Null Law", "Complement Law", "Identity Law", "Inverse Law"],
+          "answer": "Identity Law"
+        },
+        {
+          "question": "Convert the hexadecimal number A3 to decimal.",
+          "options": ["243", "160", "163", "256"],
+          "answer": "163"
+        },
+        {
+          "question": "What is the integral of 1/x?",
+          "options": ["1/x + C", "x^2/2", "x + C", "ln|x| + C"],
+          "answer": "ln|x| + C"
+        },
+        {
+          "question": "The result of Boolean expression A + 1 is:",
+          "options": ["Undefined", "A", "1", "0"],
+          "answer": "1"
+        },
+        {
+          "question": "In the equation y = tan(x), what is dy/dx?",
+          "options": ["sec^2(x)", "1", "cot(x)", "tan(x)"],
+          "answer": "sec^2(x)"
+        },
+        {
+          "question": "Which law is represented by A * (A + B) = A?",
+          "options": ["Distributive Law", "Absorption Law", "Identity Law", "Idempotent Law"],
+          "answer": "Absorption Law"
+        },
+        {
+          "question": "What is the standard form of representing a logic circuit using Boolean expressions?",
+          "options": ["Sum of Products", "Difference of Products", "Difference of Sums", "Product of Sums"],
+          "answer": "Sum of Products"
+        },
+        {
+          "question": "The inverse of sin(x) is represented as:",
+          "options": ["arcsin(x)", "Both a and b", "cos(x)", "sin^(-1)(x)"],
+          "answer": "Both a and b"
+        },
+        {
+          "question": "What is the Boolean result of A + A'?",
+          "options": ["1", "0", "A", "A'"],
+          "answer": "1"
+        },
+        {
+          "question": "Which trigonometric function is periodic with a period of π?",
+          "options": ["cos(x)", "tan(x)", "sin(x)", "sec(x)"],
+          "answer": "tan(x)"
+        }
+      ]
+    },
+    {
+      "title": "Model Paper 3",
+      "icon": "./assets/images/icon-accessibility.svg",
+      "questions": [
+        {
+          "question": "The decimal number 255 is equivalent to which hexadecimal number?",
+          "options": ["FF", "F0", "FE", "0F"],
+          "answer": "FF"
+        },
+        {
+          "question": "Which Boolean law simplifies the expression A + A'B?",
+          "options": ["De Morgan's Law", "Absorption Law", "Distributive Law", "Idempotent Law"],
+          "answer": "Absorption Law"
+        },
+        {
+          "question": "What is the differentiation of y = cos(x)?",
+          "options": ["cos(x)", "sin(x)", "-sin(x)", "-cos(x)"],
+          "answer": "-sin(x)"
+        },
+        {
+          "question": "Which trigonometric identity is used in the expression sin(2x)?",
+          "options": ["2sin(x)cos(x)", "2cos(x)sin(x)", "2sin^2(x)", "sin(x)cos(x)"],
+          "answer": "2sin(x)cos(x)"
+        },
+        {
+          "question": "What is the sum of the binary numbers 101 and 111?",
+          "options": ["1010", "1100", "1000", "1110"],
+          "answer": "1100"
+        },
+        {
+          "question": "In partial fractions, what operation is performed after factoring the denominator?",
+          "options": ["Integration", "Equating numerators", "Subtraction of fractions", "Addition of fractions"],
+          "answer": "Equating numerators"
+        },
+        {
+          "question": "What is the Boolean expression for the output of an OR gate with inputs A and B?",
+          "options": ["A * B", "A + B", "AB'", "A'B"],
+          "answer": "A + B"
+        },
+        {
+          "question": "What is the result of Boolean expression A * 0?",
+          "options": ["0", "1", "Undefined", "A"],
+          "answer": "0"
+        },
+        {
+          "question": "Which trigonometric function is the ratio of adjacent side to hypotenuse in a right triangle?",
+          "options": ["Cosine", "Tangent", "Sine", "Cotangent"],
+          "answer": "Cosine"
+        },
+        {
+          "question": "What is the integration of 4x^3?",
+          "options": ["x^4 + C", "x^4/4 + C", "x^4/2 + C", "4x^4/4 + C"],
+          "answer": "x^4 + C"
+        },
+        {
+          "question": "The hexadecimal number A3 in binary is:",
+          "options": ["11000011", "10111100", "10101010", "10100011"],
+          "answer": "10100011"
+        },
+        {
+          "question": "Which Boolean identity is used in the expression A * (A + B) = A?",
+          "options": ["Absorption Law", "Idempotent Law", "Identity Law", "De Morgan's Law"],
+          "answer": "Absorption Law"
+        },
+        {
+          "question": "What is the differentiation of y = x^3?",
+          "options": ["3x", "x^2", "2x^3", "3x^2"],
+          "answer": "3x^2"
+        },
+        {
+          "question": "What is the output of a NOR gate when both inputs are 1?",
+          "options": ["1", "Undefined", "Depends on the condition", "0"],
+          "answer": "0"
+        },
+        {
+          "question": "The reciprocal of cosine is:",
+          "options": ["Cotangent", "Cosecant", "Secant", "Tangent"],
+          "answer": "Secant"
+        },
+        {
+          "question": "Convert the decimal number 29 to binary.",
+          "options": ["11110", "11010", "11101", "10101"],
+          "answer": "11101"
+        },
+        {
+          "question": "The integral of x^2 is:",
+          "options": ["x^3/3 + C", "x^2 + C", "x^3/2 + C", "2x + C"],
+          "answer": "x^3/3 + C"
+        },
+        {
+          "question": "What is the Boolean expression for the NAND gate?",
+          "options": ["(A * B)'", "A + B'", "A' + B'", "A * B'"],
+          "answer": "(A * B)'"
+        },
+        {
+          "question": "Which function represents the inverse of the tangent function?",
+          "options": ["tan^(-1)(x)", "cot(x)", "Both a and b", "arctan(x)"],
+          "answer": "Both a and b"
+        },
+        {
+          "question": "What is the result of Boolean expression A * A?",
+          "options": ["A", "0", "A'", "1"],
+          "answer": "A"
+        },
+        {
+          "question": "The integral of sin(x) is:",
+          "options": ["sin(x) + C", "-sin(x) + C", "cos(x) + C", "-cos(x) + C"],
+          "answer": "-cos(x) + C"
+        },
+        {
+          "question": "Which trigonometric function is not defined for odd multiples of π/2?",
+          "options": ["cos(x)", "tan(x)", "sec(x)", "sin(x)"],
+          "answer": "tan(x)"
+        },
+        {
+          "question": "Which Boolean law is used in the simplification of A + (AB)?",
+          "options": ["Distributive Law", "Idempotent Law", "Absorption Law", "De Morgan's Law"],
+          "answer": "Absorption Law"
+        },
+        {
+          "question": "What is the integral of cos(x)?",
+          "options": ["sin(x) + C", "cos(x) + C", "-cos(x) + C", "-sin(x) + C"],
+          "answer": "sin(x) + C"
+        },
+        {
+          "question": "In trigonometry, which function is equal to the ratio of the opposite side to the hypotenuse?",
+          "options": ["tangent", "cosine", "cosecant", "sine"],
+          "answer": "sine"
         }
       ]
     }
